@@ -192,6 +192,7 @@ body::after {
 .highlight {
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -502,6 +503,25 @@ footer {
     padding: 40px;
     border-top: 1px solid var(--card-border);
     color: #64748b;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.contact-links a:hover {
+    color: var(--primary-color);
 }
 
 /* Responsive */
