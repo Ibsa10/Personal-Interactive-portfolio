@@ -46,7 +46,19 @@
             <div class="glass-card main-glass">
                 <div class="mockup-header">MathViz Preview</div>
                 <div class="mockup-body">
-                    <div class="sine-wave"></div>
+                    <div class="graph-grid"></div>
+                    <div class="graph-axis-x"></div>
+                    <div class="graph-axis-y"></div>
+                    <svg class="sine-wave" viewBox="0 0 500 200" preserveAspectRatio="none">
+                        <path d="M 0,100 Q 62.5,0 125,100 T 250,100 T 375,100 T 500,100" class="path-animate-1" />
+                    </svg>
+                    <svg class="sine-wave cosine-wave" viewBox="0 0 500 200" preserveAspectRatio="none">
+                        <path d="M 0,100 Q 62.5,200 125,100 T 250,100 T 375,100 T 500,100" class="path-animate-2" />
+                    </svg>
+                    <div class="mockup-ui-panel">
+                        <div><div class="color-dot primary"></div> y = sin(x)</div>
+                        <div><div class="color-dot secondary"></div> y = cos(x)</div>
+                    </div>
                 </div>
             </div>
         </div>
